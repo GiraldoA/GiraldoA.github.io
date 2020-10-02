@@ -1,0 +1,66 @@
+
+header {
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/d0/84/ed/d084ed2e115c4693d913c7308b4a4ce6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+Margin: 0;
+Padding: 0;
+Box-sizing: border-box;
+}
+h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+img {
+    height: 250px;
+    width: 255px;
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: rgb(0, 56, 238);
+}
+a:hover {
+    color: red;
+}
+div {
+     width: 1265px;
+     Border-style: solid;
+     Border-width: 5px;
+     Margin: 0px;
+     Padding: 2px;
+}
+.flex-container {
+     display: flex;
+     flex-direction: row;
+}    
+@media screen and (max-width: 900px){
+    body {
+        background-color: red;
+    }
+}
+ @media screen and (min-width: 900px){
+        body {
+            background-color: darkgray;
+        }
+}
+@media screen and (min-width: 900px){
+    ol {
+        background-color: orange;
+    }
+}
+@media screen and (min-width: 900px){
+    ul  {
+        background-color: orange;
+    }
+}
+@media screen and (min-width: 900px){
+    form {
+        background-color: orange;
+    }
+}
+    
