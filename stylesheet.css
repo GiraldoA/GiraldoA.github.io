@@ -7,16 +7,70 @@ header {
     background-size: cover;
 }
 body {
-Margin: 0;
-Padding: 0;
-Box-sizing: border-box;
+    Margin: 0;
+    Padding: 0;
+    Box-sizing: border-box;
 }
+main {
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ol {
+    height: fit-content;
+    width: fit-content;
+    Border-style: solid;
+    Border-width: 5px;
+    Margin: 5px;
+    Padding: 30px;
+    align-items: center;
+}
+ul {
+    height: fit-content;
+    width: fit-content;
+    Border-style: solid;
+    Border-width: 5px;
+    Margin: 5px;
+    Padding: 30px;
+}
+form {
+    height: fit-content;
+    width: fit-content;
+    Border-style: solid;
+    Border-width: 5px;
+    Margin: 0px;
+    Padding: 30px;
+}
+table {
+    height: fit-content;
+    width: fit-content;
+    Border-style: solid;
+    Border-width: 5px;
+    border-color: black;
+    Margin: 0px;
+    Padding: 30px;
+}
+footer {
+    text-align: center;
+    margin: 50px;
+}
+div {
+    width: auto;
+    Border-style: solid;
+    Border-width: 5px;
+    Margin: 0px;
+    Padding: 0px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+} 
 h1 {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 img {
     height: 250px;
-    width: 255px;
+    width: 253.5px;
 }
 a:link {
     color: yellow;
@@ -26,18 +80,7 @@ a:visited {
 }
 a:hover {
     color: red;
-}
-div {
-     width: 1265px;
-     Border-style: solid;
-     Border-width: 5px;
-     Margin: 0px;
-     Padding: 2px;
-}
-.flex-container {
-     display: flex;
-     flex-direction: row;
-}    
+}   
 @media screen and (max-width: 900px){
     body {
         background-color: red;
@@ -47,20 +90,17 @@ div {
         body {
             background-color: darkgray;
         }
-}
-@media screen and (min-width: 900px){
-    ol {
-        background-color: orange;
+        form {
+            background-color: orange;
+        }
+        table {
+            background-color: orange;
+        }
+        ol {
+            background-color:orange;
+        }
+        ul  {
+            background-color: orange;
+        }
     }
-}
-@media screen and (min-width: 900px){
-    ul  {
-        background-color: orange;
-    }
-}
-@media screen and (min-width: 900px){
-    form {
-        background-color: orange;
-    }
-}
     
