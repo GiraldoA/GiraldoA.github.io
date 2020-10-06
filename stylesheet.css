@@ -15,6 +15,11 @@ main {
     margin: 50px;
     padding: 20px;
     box-sizing: border-box;
+    background-image: url(https://anupghosal.com/wp-content/uploads/2020/08/11-naruto-iphone-11-plus-wallpaper-on-wallpapersafari-naruto-wallpaper-iphone-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
 }
 ol {
     height: fit-content;
